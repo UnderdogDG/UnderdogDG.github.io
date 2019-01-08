@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MEDEM - Memoria Digital del Espacio en México</title>
+    <link rel="icon" type="image/png" href="./img/medem-icon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main">
+        <img class="corner corner__c1" src="./img/bg-cor.svg" alt="">
+        <img class="corner corner__c2" src="./img/bg-cor.svg" alt="">
+        <img class="corner corner__c3" src="./img/bg-cor.svg" alt="">
+        <img class="corner corner__c4" src="./img/bg-cor.svg" alt="">
+        <img class="corner corner__ct" src="./img/bg-cen.svg" alt="">
+        <img class="corner corner__cl" src="./img/bg-cen.svg" alt="">
+        <img class="corner corner__cc" src="./img/bg-cen.svg" alt="">
+        <img class="corner corner__cr" src="./img/bg-cen.svg" alt="">
+        <!-- <nav></nav> -->
+        <!-- <div class="wrapper"> -->
+        <div class="gridMain">
+            <div class="gridMain__logo breath">
+                <object class="img" data="./img/logo-anim.svg" type="image/svg+xml" onerror="this.src='otro'"></object>
+            </div>
+            <div id="container" class="gridMain__img">
+                <!-- <img class="" src="./img/nav.png" alt=""> -->
+                <canvas id="preview"></canvas>
+            </div>
+            <div class="gridMain__txt">
+                <h2 id="txt" class="anim">Bienvenido</h2>
+                <p>"Un viaje a través de los acontecimientos entorno a el Espacio en México"</p>
+            </div>
+            <div class="gridMain__btn">
+                <a class="btn" href="#"><span>Entrar</span></a>
+            </div>
+            <div class="gridMain__ico" id="contIco">
+                    <object class="top-bottom" id= "ico" data="./img/scroll-ico.svg" type="image/svg+xml"></object>
+            </div>
+        </div>
+        <!-- </div> -->
+        <!-- <div class="wrapper"> -->
+        <div class="gridControl scroll bottom">
+            <div class="gridControl__title">
+                <h1>Controles</h1>
+            </div>
+            <div class="gridControl__ctrl">
+                <object data="./img/btn_control.svg" type="image/svg+xml" onerror="this.src='otro'"></object>
+            </div>
+            <div class="gridControl__img">
+                <img class="" src="./img/nav.png" alt="">
+            </div>
+            
+        </div>
+        <!-- </div> -->
+        <div class="gridSociales scroll bottom">
+            <div class="gridSociales__title">
+                <h1>Siguenos en:</h1>
+            </div>
+            <div class="gridSociales__redes">
+                <div class="wrapper">
+                    <div class="item">
+                        <object href="#" data="./img/facebook.svg" type="image/svg+xml" onerror="this.src='otro'"></object>
+                        <h3>Facebook</h3>
+                    </div>
+                    <div class="item">
+                        <object data="./img/instagram.svg" type="image/svg+xml" onerror="this.src='otro'"></object>
+                        <h3>Instagram</h3>
+                    </div>
+                    <div class="item">
+                        <object data="./img/twitter.svg" type="image/svg+xml" onerror="this.src='otro'"></object>
+                        <h3>Twitter</h3>
+                    </div>
+                    <div class="item">
+                        <object data="./img/youtube.svg" type="image/svg+xml" onerror="this.src='otro'"></object>
+                        <h3>Youtube</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Live Server -->
+    <script src="./js/main-bundle.js"></script>
+
+    <!-- WebPack -->
+    <!-- <script src="./main-bundle.js"></script>  -->
+</body>
+</html>
